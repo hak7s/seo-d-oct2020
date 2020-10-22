@@ -213,6 +213,8 @@
     <link rel="canonical" href="https://mondomaine.fr/categorie/chemises"/>
     https://mondomaine.fr/categorie/chemises?order=alphetique
     <link rel="canonical" href="https://mondomaine.fr/categorie/chemises"/>
+
+    PHP => $_GET["order"]
   -->
 
 	<!-- pour les smartphones et IE ancien -->
@@ -229,10 +231,30 @@
 
 </head>
 <body>
+    <!-- h1 et h2 => IMPORTANT pour GOOGLE 
+    noter dans un page html => 1 h1 par page 
+    dans ces balises => les mots clés !! 
+    -->
   <div class="wrapper">
     <header class="clearfix">
       <figure class="logo">
-        <img src="img-privee/logo.png" alt="logo nom de l'hôtel" />
+        <img src="https://via.placeholder.com/100x100" alt="logo nom de l'hôtel" />
+        <!-- PR 
+            Google il utilise les valeurs mises dans les attributs
+            de la balise img
+             src=" " => mettre les mots clés dans le nom de l'image
+             alt="mot clé sur lesquels vous voulez que l'on vous index "
+
+            3 rôles
+            alt=" " 
+            1 si jamais l'attribut src appel une image qui n'existe pas
+            alors c'est le contenu de l'attribut alt qui va être affiché
+            2 navigateur pour les personnes problèmes visual
+            lire le contenu des pages balises image 
+            3 utilise le contenu de l'attribut img alt => utiliser dans son calcul !
+            => finir demain matin l' optimisation technique / plugin
+            Google Analytics 
+        -->
       </figure>
       <h1 class="brend">
         <span>Hôtel luxury</span>
