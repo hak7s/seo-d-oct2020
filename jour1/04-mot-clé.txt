@@ -37,4 +37,117 @@ https://github.com/webdevproformation/seo-d-oct2020
 
 pas questions ?? 
 
+son positionnement sur le moteur de recherche google
+
+idée des mots clés à utiliser ( => Etude de marché )
+
+quelles mots clé / volume / concurrent 
+Comment travail les concurrents ? => 
+
+Quelles les recherches associées (recherche le mot clé + un autre mot )
+
+=> https://ubersuggest.io
+
+=> suggestions pour le webmaster pour créer des contenus 
+=> qui vont attirer de nouveaux visiteurs 
+
+---------------
+
+aussi saisir un webdevpro.net
+
+
+=> hébergement  => php symfony 
+
+=> offre phpnet.org
+=> hébergeur (société qui va louer un ordinateur + nom de domaine)
+=> 24h/24 7j/7 => 12 mois 
+
+=> DORANCO à négocié auprès de phpnet.org => pack étudiant 
+https://www.phpnet.org/pack-etudiant.php
+
+=> php7.2 / 7.3 / 7.4
+=> phpMyADMIN
+=> https 
+
+DORANCO20
+
+=> 15€ TTC / an => 1 seule fois par an 
+
+=> François Duarte => mettre en ligne 
+
+=> attention dans l'offre phpnet.org, il n'y a pas de SSH 
+
+
+------
+
+https://www.ovh.com/fr/
+
+=> 86€ TTC / an 1 fois 
+
+------
+
+pour l'instant => gratuit / sans inscription
+
+autres outils (payant mais qui font la meme chose)
+
+http://keywordtool.io
+
+écrire la question dans le moteur de recherche COMME 
+un humain 
+
+comparaison entre un mot clé et un autre 
+
+------
+
+https://answerthepublic.com/
+
+=> outil générer toutes les questions sous forme de graphique
+
+------
+
+https://trends.google.fr/trends/?geo=FR
+
+=> permet de comparez deux mot clés => savoir rapidement 
+qu'elle est celui qui est le plus utilisé par les internautes
+
+
+=> objectif liste de 5 et 10 mots requêtes (mot clés)
+sur lesquels vous souhaitez être 1er 
+
+
+=> Utiliser dans votre site / page html 
+
+=> recommandé de répéter plusieurs fois le mot clé dans votre page 
+
+=> mais pas trop => " indice de densité " SEO quake 
+nombre de fois que l'on utilise un mot dans une page web ! 
+
+--------------
+--------------
+
+=> pour finir ce chapitre => lire l'article 
+
+Acquérir de la notoriété sur le web
+
+lire cet article => 14h20 => 14h30
+
+--------------
+--------------
+
+avant le html et css => IDEE 
+
+avoir une idée clair sur les mots clés sur lesquels on va vous trouver dans les moteurs de recherche 
+
+-----------
+
+optimisation technique => HTML
+
+dans le dossier jour1, c'est deux fichiers :
+
+05-accueil.html 
+05-style.css
+
+=> support de cours 
+
+
 -----------

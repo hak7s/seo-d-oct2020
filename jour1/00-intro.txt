@@ -6,7 +6,7 @@ malik.h@webdevpro.net
 ----------------------
 
 
-référencement naturel - SEO
+rÃ©fÃ©rencement naturel - SEO
 Search Engine Optimization
 
 
@@ -29,9 +29,9 @@ mdp : seo
 
 organiser la prise de note => 
 
-créer sur le bureau de votre ordinateur dossier 
+crÃ©er sur le bureau de votre ordinateur dossier 
 seo
-	créer un dossier jour1
+	crÃ©er un dossier jour1
 		00-intro.txt
 
 ----------------------
@@ -40,9 +40,3 @@ toutes les notes que je suis en train de prendre
 => partager aussi sur Github 
 
 ----------------------
-
-
-
-
-
-
