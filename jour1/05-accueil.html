@@ -126,22 +126,22 @@
 	<!-- fin pour les réseaux sociaux -->
 
 
-<link rel="apple-touch-icon" sizes="57x57" href="../favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="../favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="../favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="../favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="../favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="../favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="../favicon/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="../favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="../favicon/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="../favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
-<link rel="manifest" href="../favicon/manifest.json">
+<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/manifest.json">
 <meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="../favicon/ms-icon-144x144.png">
+<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 
 <!-- 
@@ -154,11 +154,52 @@
     logo du site => identité du site internet 
 
     => internet récupérer une image ( logo )
-    => site favicon generator => https://www.favicon-generator.org/
+    => site favicon generator =
+
+    site internet => recharge plusieurs fois la même page 
+    gagner de la bande passante => le navigateur va stocker dans un dossier (cache)
+    images de la page 
+    recherche la même => beaucoup plus vite 
+
+    cookie => fichier contenir des informations sur ton comportement
+    stocker dans le navigateur 
+
+    garde les cookies => deuxième fois que tu vas sur le site => fr // chemises
+    chemises 
+    => ergonomie / expérience utilisateur UX 
+
 -->
 
   <!-- pour protection contre le duplicate content dans le site -->
   <link rel="canonical" href="http://my-domain.com/index.html"/>
+
+  <!-- 
+    balise link canonical 
+    balise => Eviter DUPLICAT CONTENT dans un site 
+    si vous réaliser un site internet PHP => vous pouvez avoir des pages qui dupliquée
+    2 fois la même page avec deux adresses internet différentes 
+
+    amazon => catégorie 
+
+    chaussure 
+    https://www.amazon.fr/b/?node=1765047031&ref_=Oct_s9_apbd_odnav_hd_bw_b1vSlpX_9&pf_rd_r=4C8JWJSQPS0XYGEMB389&pf_rd_p=23ad1045-4b1a-51e6-9ecc-d6bb6d08f9ad&pf_rd_s=merchandised-search-11&pf_rd_t=BROWSE&pf_rd_i=1765241031
+
+    cette page je peux la trier par prix 
+
+    dans ce site la page des produits est exactement la même 
+    => la seule chose qui change c'est l'ordre des produits 
+
+    => j'ai le même contenu dans plusieurs pages du site 
+    pour éviter que Google ajoute les pages dupliquée dans sa base de données 
+    ajouter la balise 
+    <link rel="canonical" href="http://my-domain.com/index.html"/>
+
+    attention la page que tu es en trai de scanné => c'est un double de la page 
+    http://my-domain.com/index.html
+
+    Duplicate Content (pages dont le contenu est identique) dans le même site 
+
+  -->
   <!-- fin pour protection contre le duplicate content dans le site -->
 
 	<!-- pour les smartphones et IE ancien -->
