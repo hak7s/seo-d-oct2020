@@ -1,22 +1,22 @@
-pour maîtriser le SEO 3 domaines à comprendre
+pour maÃ®triser le SEO 3 domaines Ã  comprendre
 
-=> 1 mot clé 
+=> 1 mot clÃ© 
 
-=> 2 techniques en html à connaitre pour que Google
-indexer = évaluer votre page => 
+=> 2 techniques en html Ã  connaitre pour que Google
+indexer = Ã©valuer votre page => 
 
 => 3 mettre en place une campagne de linking => ajouter des liens  
 dans d'autres sites que le votre
 
 ---------
 
-=> 4 web analytics => suivre l'activité du site 
+=> 4 web analytics => suivre l'activitÃ© du site 
 Google Analytics
 Google Search Console = Google WebmasterTool
 Google AdWords 
 Google KeywordPlanner 
 
-=> sites internet Google met à disposition des webmasters
-suivre l'activité de votre site => 
+=> sites internet Google met Ã  disposition des webmasters
+suivre l'activitÃ© de votre site => 
 Taux de Rebond = Bouncing Rate 
  

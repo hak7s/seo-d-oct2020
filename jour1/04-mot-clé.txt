@@ -4,14 +4,14 @@ projet => boulangerie
 	=> plomberie 
 	=> vendre de la formation 
 
-1 Quels sont les mots clés que vont utiliser les internautes
+1 Quels sont les mots clÃ©s que vont utiliser les internautes
 dans google pour chercher ?? 
 
-2 Combien de fois la question a été posée ??
+2 Combien de fois la question a Ã©tÃ© posÃ©e ??
 
 => https://neilpatel.com/fr/ubersuggest/
 
-=> ce site vos donners des informations clés que 
+=> ce site vos donners des informations clÃ©s que 
 les comportements des internautes lorsqu'ils utilisent
 des moteurs de recherche 
 
@@ -22,11 +22,19 @@ plomberie => google.com
 plomberie => google.es
 plomberie => google.be
 
-recherche associée => mot clé 
+recherche associÃ©e => mot clÃ© 
 
 
 -----------
 
-rdv 13h34 bon appétit  !!!
+rdv 13h34 bon appÃ©tit  !!!
+
+rebonjour !
+je viens de crÃ©er un dÃ©pÃ´t github => 
+toutes les notes en + du support du cours 
+
+https://github.com/webdevproformation/seo-d-oct2020
+
+pas questions ?? 
 
 -----------
