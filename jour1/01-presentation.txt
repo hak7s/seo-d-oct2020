@@ -1,0 +1,75 @@
+Vous avez réaliser un site internet
+
+=> mis en ligne (sur hébergeur)
+
+=> comment y accéder ?? ( navigateur 
+logiciel qui permet d'aller sur internet 
+Chrome / Firefox / Opéra)
+3 manières possibles :
+
+- vous connaissez l'adresse du site
+directement dans la barre d'adresse
+=> site très connu => facebook / lemonde / amazon
+
+=> utiliser un site internet spécial
+moteur de recherche => saisir mot clé 
+=> donner des résultats => cliquer sur un des 
+résultats donnés
+=> la méthode 2 qui est la plus utilisée
+
+=> via des back link 
+lire un article dans un blog / lemonde
+lien hyptertexte
+<a href="https://mondomaine.fr">projet info</a>
+
+---------------------------
+
+manière 2 => la plus  Utiliser !!
+
+=> Etude montre le comportement internate face aux pages de résultats de google
+
+en fonction de votre position dans la page des résultats
+
+plus être proche de la 1ère position => TRAFFIC 
+30%
+20%
+10%
+
+=> 70% => WINNER TAKE ALL 
+
+---------------------------
+
+En plus de maitriser des technologies 
+HTML / CSS / JS / PHP / SQL ...
+=> couche de connaissance sur COMMENT GOOGLE va classer
+les pages de votre site dans ses pages de résultat
+
+
+=> Référencement 
+
+---------------------------
+
+Google / Bing / Yahoo / 
+
+=> utiliser un moteur de recherche => Google
+
+=> Bing (Microsoft) et Yahooo => Fusionner 
+
+=> deux pays qui ne suivent pas cette tendance 
+
+=> Russie => Yandex (Google Russe)
+=> Chine => Baidu (Google Chinois)
+
+=> Qwant => Google Fr
+=> DuckDuckGo => petit moteur de recherche (américain
+qui utilise des données Yandex)
+respect de la vie privée des internautes
+
+
+moteur de recherche ========  Google
+
+
+
+
+
+

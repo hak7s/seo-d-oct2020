@@ -1,0 +1,318 @@
+Avant de voir les techniques pour être bien classé 
+
+=> Comment fonctionne un moteur de recherche ?? 
+Google / Baidu / Bing ...
+
+3 étapes :
+
+1ère étape => Exploration 
+
+Google tourner en permanence des logiciels qui vont Explorer
+et copier dans une énorme base de données TOUTES les pages 
+disponible sur internet 
+
+=> robots exploration / bot / spider => 
+copier 
+code html <a href=""> 
+
+=> Connaissez origin de nom Google ? 
+=> Gogle => Lunette de ski (pas ça ... mais c'est proche)
+
+Fondateur de Google => mathémiciens (Serguei Brin / Larry Page)
+aime les chiffres => 
+
+Gogol => Grand nombre 10 puissance 100   
+https://fr.wikipedia.org/wiki/Gogol_(nombre)
+
+=> Base de données dans laquelle Google va stocker internet
+=> en 2005 possède 100 data center 
+=> Super Taker => data center 
+=> BNP Paribas 7 data center 
+
+-----------------
+
+2ème étape => Indexation
+
+un fois que l'on un énorme base de données =>
+Exploiter => Evaluer / classer / catégoriser => Ranking 
+
+=> script / robots d'indexation 
+
+-----------------
+
+3ème étape => Interrogation
+
+site => google.fr => PERFORMANCE 
+deux étapes précédentes => ESSENTIELLES pour que le moteur 
+de recherche fonctionne
+
+
+-----------------
+
+Stanford ( HEC + Polytechnique )
+Google => projet de fin d'étude 
+
+start up => 2 dans un garage => tous les mois 
+20 % pendant 10 ans 
+aujourd'hui => CA 475 Milliard de $ 
+=> réfencement payant 
+
+rdv 10h45 => bon café ----------------
+
+-----------------
+
+
+re de retour 
+
+3 étapes : Exploration / indexation / Interrogation 
+
+-----------------
+
+La phase la plus important => QUALITE du moteur de recherche
+
+=> indexation : comment classer l'information ?
+
+Google => Algorithme de classement => PAGE RANK
+
+Algorithme de Classement de Larry Page 
+
+=> Basé sur des études dans les années 70 
+
+=> Bibliothèque => comment trouver les documents qui sont PERTINENT ?
+
+Chercheur =>
+
+Science et VIE
+
+PIB
+
+sources 
+article A
+article B
+article C
+
+-----
+
+Le Monde Diplomatique
+
+PIB
+
+sources 
+article A
+article D
+article E
+
+---
+
+SCIENCE 
+
+PIB
+
+sources : documents utilisés par l'auteur de l'article 
+pour rédiger son article
+article A
+article B
+article F
+
+=> Article A qui va reçu le plus de vote => Article PERTINENT 
+
+=> Article B 
+=> puis les autres articles 
+
+=> intuition => Mathématique PERTINENCE ~= POPULARITE 
+
+<a href="">
+
+Article A => source Aricle Z 	
+
+Larry Page => informatique => (équation de Markov => statistique
+pour prévoir un événement dans un environnement stable )
+
+1998 
+
+très très vite, de plus en plus utilisé 
+
+=> webmaster => si je suis bien classé sur Google => Augmenter
+TRAFFIC
+
+=> plus de je vais avoir de lien vers mon site 
+=> plus de traffics
+
+=> webmaster vont utiliser des techniques => Google Bombing  
+
+https://optimiz.me/google-bombing/
+
+=> Technique pour être bien classé dans les pages de résultats de 
+Google
+
+Google Bombing => manipuler les pages résultats de Google
+
+=> aller dans des 1000 de sites internet 
+=>lien pointer vers une page 
+
+=> idiot => google image
+
+=> Manipuler les pages de résultats => PERTINENCE 
+
+
+=> deuxième Algorithme à connaitre chez Google 
+
+=> <a href=""> => ORIGINE / QUALITE De la source 
+TR => Trust Rank => vérifier votre crédibilité 
+
+=> lemonde.fr / wikipedia (meilleure de valeur) lien qui vient d'une petit blog
+=> qualité du code html dans la page 
+
+=> site de hacker manipuler les pages de résultat de google
+=> Ferme lien 
+
+page html
+
+dans la balise body 
+
+<a href=""></a> => SPAMMER l'index de google => SPAMDEXING 
+
+=> note
+ 
+----------
+
+base de données => enorme
+html => préparation : combien de fois 
+- information 200 fois
+- détail 20 fois 
+- information  mis dans la balise html h1
+-> 700 liens dans d'autres site qui améne vers elle 
+
+=> algorithme PR et TR => 
+classement => PERTINENT 
+
+que les sites les plus connus 1 seule site == 
+
+----------
+
+le PR et TR sont des algorithmes qui sont gardés => on ne sait pas
+les critères et leur importance
+
+en 98 => donner des indications ce qu'ils utilisaient
+
+3 types de critères
+
+1 critères on page
+
+Google => prendre chaque page html 
+de votre site évaluer : ancienté / texte écrit visible ou invisible
+contenu de certaine html <h1>
+<title>
+
+2 critère on site
+
+éléments qui se trouvent dans tout le site en même temps
+
+adresse internet : nom de domaine ?? 
+et la différence 
+
+url = adresse internet : https://www.20minutes.fr/societe/2890667-20201022-attentats-conflans-parent-eleve-cinq-personnes-mises-examen-complicite-assassinat-terroriste
+
+protocole : https://
+sous domaine www
+nom de domaine : 20minutes.fr
+ressources : fichier / dossier : societe/2890667-20201022-attentats-conflans-parent-eleve-cinq-personnes-mises-examen-complicite-assassinat-terroriste
+
+=> critère on site 
+
+=> arborescence : comment vous avez organiser vos pages 
+=> normalement toutes pages internet de votre site doit être accessible
+en moins de 3 clicks 
+
+=> site explorer votre site rapidement : 
+
+maillage internet 
+
+=> très gros sites internet => amazon
+
+Fil d'ariane => BreadCrumb (Pain miette)
+
+3 critère offsite 
+
+la quantité de liens qui amène vers votre site 
+lien hypertexte qui amènent vers chez vous (et qui ne sont pas dans votre site ) ET leur qualité (TR)
+
+----------
+spéculation sur le contenu de l'équation :
+
+Est ce que google prendre en compte le COMPORTEMENT des internautes
+dans le PAGE rank ??
+
+pour faire ses pages de résultat ?? 
+
+=> Normalement le comportement des internautes n'est pas 
+le critère le plus important pour réaliser le classement des résultats sur Google
+
+=> abondance => https://www.abondance.com/
+(plein d'information et news sur les dernières nouveautés sur
+les moteurs de recherche)
+
+=> référencement => métier (spécialité) à part entière sur internet 
+
+=> Grande entreprise ( Marketing )
+
+=> jagon = langage métier 
+
+SEO = Search Engine Optimisation => optimiser le classe dans la zone organic des pages de résultats des moteurs de recherche
+référencement naturel 
+
+SEA = Search Engine Advertizing => référencement payant
+
+SEM = Search Engine Marketing => SEO + SEA
+
+----- 
+
+réseaux sociaux  = Facebook / Linked In / Instagram / Youtube /
+
+SMO = Social Media Optimization => Viralité 
+SMA = Social Media Advertizing => Campagne de publilité sur les réseaux sociaux
+SMM = Social Media Marketing 
+
+----- 
+
+e reputation : SMM + SEM 
+
+----- 
+
+SERP : Search Engine Response / Result Page 
+Page de résultat sur Google 
+
+Comment être le mieux classé sur les SERP ?
+
+----- 
+
+Amazon => catalogue => fait par des sociétés qui veulent vendre 
+Amazon = place de marché 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
