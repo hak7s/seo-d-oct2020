@@ -1,0 +1,25 @@
+.container{
+    margin: 0 auto;
+    width:960px;
+}
+
+.img1{
+    float: right;
+    width:250px
+}
+
+figure{
+    margin: 0;
+}
+
+.img2{
+   width:50%
+}
+img{
+    border-radius: 10px;
+    border:1px solid grey;
+}
+
+h1, strong{
+    color:red
+}
