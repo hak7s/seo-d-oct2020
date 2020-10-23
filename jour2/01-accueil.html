@@ -104,15 +104,36 @@
 
             à la place de la balise <div>
 
-            
+            => outil qui permet de faire le 
+            je veux savoir si la page  utilise bien toutes les techniques que l'on vient de voir 
+
+            => extension SEOQuake => logiciel gratuite s'installer sur Chrome 
+            => outil va vous donner plein d'informations comment le webmaster a utilisé toutes les techniques de SEO 
+
+            1 lancer google Chrome 
+            2 chercher SEOQuake
+            3 https://www.seoquake.com/index.html
+            4 installer le plugin 
+
+            => juste après la pause => présente 
+            rdv 10h45 bon café !
+            re ! 
+            installé l'extension SEO Quake ( Chrome )
+
+            outil qui permet de vous donner information sur les techniques de SEO utilisée dans la page
+
+            => lemonde.fr => cliquer sur un article au hazard
+
+            => aller sur wikipedia > article référencement naturel 
+            => évaluer la page en terme de SEO (via le plugin que l'on vient d'installer)
 
       -->
     <header class="clearfix">
       <figure class="logo">
         <img src="img-privee/logo.png" alt="logo nom de l'hôtel" />
       </figure>
-      <h1 class="brend">
-        <span>Hôtel luxury</span>
+      <h1 class="brend" itemscope itemtype="https://schema.org/Organization">
+        <span itemprop="name">Hôtel luxury</span>
       </h1>
       <nav class="menu">
         <ul>
@@ -225,7 +246,7 @@
     </article>
   </section>
   <hr>
-  <footer>
+  <footer  itemscope itemtype="https://schema.org/Organization">
     <div class="gmap">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21000.949108733676!2d2.3390776354517433!3d48.85594804081326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x255f0c37e8ccdb9b!2sH%C3%B4tel+Britannique!5e0!3m2!1sfr!2sfr!4v1479832484188" allowfullscreen></iframe>
     </div>
@@ -236,9 +257,9 @@
       <address class="contact">
         <ul>
           <li>Nom hôtel</li>
-          <li>Adresse : 21 rue truc truc</li>
-          <li>Tel : +33(0)1 01 01 01 01</li>
-          <li><a href="mailto:contact@hotelluxury.com">contact@hotelluxury.com</a></li>
+          <li itemprop="streetAddress">Adresse : 21 rue truc truc</li>
+          <li itemprop="telephone">Tel : +33(0)1 01 01 01 01</li>
+          <li itemprop="email"><a href="mailto:contact@hotelluxury.com">contact@hotelluxury.com</a></li>
         </ul>
       </address>
     </article>
@@ -246,10 +267,10 @@
       <h2>Réserver :</h2>
       <address class="contact">
         <ul>
-          <li>Nom hôtel</li>
-          <li>Adresse : 21 rue truc truc</li>
-          <li>Tel : +33(0)1 01 01 01 01</li>
-          <li><a href="mailto:contact@hotelluxury.com">contact@hotelluxury.com</a></li>
+          <li  itemprop="name">Nom hôtel</li>
+          <li  itemprop="address">Adresse : 21 rue truc truc</li>
+          <li  itemprop="telephone">Tel : +33(0)1 01 01 01 01</li>
+          <li itemprop="email"><a href="mailto:contact@hotelluxury.com">contact@hotelluxury.com</a></li>
         </ul>
       </address>
     </article>

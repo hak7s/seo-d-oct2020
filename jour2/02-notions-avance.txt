@@ -1,0 +1,184 @@
+=> taux de proéminence (SEO Quake) => la distance du mot par rapport au début de la pages
+plus le mot est loin dans la page et moins il a d'importance
+
+=> mot important AU DEBUT de la page ! 
+
+--------
+
+concept Avancé pour réussir son SEO
+
+Microformats / Schema.org
+
+
+=> comme pour les réseaux sociaux 
+=> les moteurs de recherches ont invité des attributs 
+=> qui vont avoir du sens pour eux 
+
+itemscope, itemtype, itemid, itemprop, itemref
+
+=> si jamais vous voyez ces attributs sur des balises html dans des pages web
+=> le webmaster utilise les normes Microformats / Schema.org
+
+=> https://schema.org/ > Person
+https://schema.org/Person
+
+Paragraphe classique en html
+
+<p>Christopher Froome was sponsored by Sky in the Tour de France.</p>
+
+Charger votre html classique avec les attributs 
+
+
+<p itemscope itemprop="Person" itemtype="https://schema.org/Person">
+      <span itemprop="name">Christopher Froome</span> was sponsored by
+      <span itemprop="sponsor" itemtype="https://schema.org/Organization">
+        <a itemprop="url" href="http://www.skysports.com/">Sky</a></span> in the Tour de France.
+</p>
+
+=> donner du sens au texte que Google va analyser 
+
+--------- 
+
+en plus de votre page html 
+vous devez créer deux fichiers 
+
+robots.txt
+sitemap.xml 
+
+=> ces deux fichiers sont utilisés par les robots d'exploration de google 
+=> donner des indications sur le travail en terme de copie de votre site dans la base de données de Google 
+
+robots.txt 
+fichier qui va donner des consigner aux robots d'exploration sur
+ce que l'on ou ne peut ajouter dans la base de donnée de Google 
+
+=> mettent en ligne un site internet et qu'il est pas fini (vous ne souhaitez pas qu'il ait du traffic qui vienne depuis google)
+
+Dans un fichier robots.txt vous avez 4 types de lignes
+
+User-agent: * # quel robots d'exploration est concerné 
+Google => GoogleBot / GoogleImage / yahooSlurp ... 
+* => tous les robots 
+
+Allow: path
+Disallow: path 
+
+=> préciser ce que vous voulez ou pas ajouter à la base de donnée de Google 
+
+=> ne rien mettre dans ta base de donnée
+User-agent: *
+Disallow: /
+
+
+=> tout ce que tu peux trouver met le dans la base de données 
+User-agent: *
+Allow: /
+Disallow: /presentation.html
+
+Sitemap: adresse/exacte/du fichier/sitemap.xml 
+
+ce fichier doit être mis à la racine (dans le dossier  racine) du projet
+
+si ce fichier n'est pas présent => Google va essayer de tout prendre et mettre dans sa base de données 
+
+=> forum de discussion => discussion qui est ouverte qui n'a pas encore de solution => pas intérêt à la mettre sur Google 
+
+=> coder le site il fonctionne 
+=> 0 texte dedans 
+=> 50% du texte => tu lances le référencement sur les pages qu'il a finit 
+
+--------------------
+
+fichier sitemap.xml 
+
+fichier qui va contenir l'ensemble des urls du site concerné 
+
+et donne la date à la quelle chaque page a été mis à jour 
+
+robots d'exploration => exactement quelles pages sont manquantes dans la base de données  
+
+le sitemap de lemonde.fr => xml (cousin de html)
+grâce à de fichier => les robots d'exploration vont savoir plus vite quelles pages il faut ajouter dans la base de données  
+
+=> dès que vous ajouter une nouvelle page dans votre page dans votre site 
+mettre à jour le fichier sitemap de votre site 
+
+=> le mieux pour le fichier sitemap.xml 
+
+=> générer automatiquement via un script en PHP 
+
+=> site on appele http://tondomaine.fr/sitemap.xml
+
+-----
+
+.htaccess 
+RewriteEngine On
+RewriteRule ^sitemap\.xml$ /script-sitemap.php [L]
+
+règle de redirection 
+
+-----
+
+=> lui qui va se carger d'exécuter le script ci dessous 
+
+// script-sitemap.php
+
+
+<?php
+// Récupération des données dans la base de données (MySQL)
+$faqs = $db->query("SELECT id, permalien FROM fc_faq WHERE etat = 1");
+ 
+// Affichage
+header('Content-Type: text/xml; charset=UTF-8');
+echo '<?xml version="1.0" encoding="UTF-8"?>'."\n";
+?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?php
+// Boucle qui liste les URL
+while($row = mysql_fetch_object($faqs)){
+    $loc        = 'http://'.DOMAINE.'/faq/{$row->id}-{$row->permalien}';
+    $priority   = '0.8';
+    $changefreq = 'never';
+ 
+    echo '
+    <url>
+        <loc>'.$loc.'</loc>
+        <changefreq>'.$changefreq.'</changefreq>
+        <priority>'.$priority.'</priority>
+    </url>';
+}
+?>
+</urlset>
+
+=> OBLIGATOIRE non
+=> Jury verifie que vous avez toutes les règles SEO en place
+=> mieux 
+
+-----------------------
+
+=> budget
+
+=> PME 
+=> développeur créer le site / dès qu'il sera en ligne (tout ce qui a été présenté est prêt )
+=> former son client / analyse
+
+
+=> grande entreprise 
+
+=> developpeur
+=> rédaction 
+=> marketing et analyse
+
+----------------------------
+
+vous êtes le développeur d'un site internet / client promotion immobilière 
+=> construit des immeubles 
+
+=> programme dans la ville de Vanves 
+=> vendre appartement 1 pièce // loft 
+
+=> page web optimiser 
+
+=> programme Vanves => dans les premiers résultats de Google (SERP)
+
+
