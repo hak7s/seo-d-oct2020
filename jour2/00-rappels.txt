@@ -1,0 +1,66 @@
+support : 
+
+adresse internet : https://formation.webdevpro.net/seo/
+(adresse saisir directement dans la barre d'adresse
+ne pas la chercher sur Google)
+
+login : seo
+mdp : seo
+
+--------------------
+
+prise de notes : (github)
+
+https://github.com/webdevproformation/seo-d-oct2020
+
+---------------------
+
+comment ajouter le favicon ? 
+
+D'autres questions sur hier ??
+
+- problème pour aller sur les supports => problème dans les adresses internet
+
+=> favicon c'est une image qui va être affichée en haut à droite 
+logo pour votre site internet 
+
+=> afficher ce logo, il faut ajouter des balises dans le head de votre page 
+
+
+---------------------
+
+Outil de web analyse => pour pouvoir les utiliser IL FAUT un site EN LIGNE 
+sur un hébergeur 
+
+si vous n'avez que des projets en local => prise de notes 
+
+Google Analytics / Google trend
+
+Google trend => https://trends.google.fr/trends/?geo=FR
+
+je veux créer une page dans mon site internet 
+
+=> gens qui viennent lire mon article 
+=> Google saisit des mots clés clés 
+
+quand j'écris mon article informatique / PHP 
+
+https://trends.google.fr/trends/?geo=FR => savoir quel mot clé est le plus utilisé 
+
+-------------
+
+Etude de marché de "informatique" => comment les internautes utilisent Google lorsqu'ils font une recherche sur le mot informatique 
+
+https://neilpatel.com/fr/ubersuggest/ 
+
+=> comment fonctionne un autre site qui est concurrent (par la même chose que moi)
+
+=> version gratuite ( quasi à jour )
+
+-------------
+
+créer le dossier jour2 dans le dossier seo
+01-accueil.html
+01-style.css
+
+
